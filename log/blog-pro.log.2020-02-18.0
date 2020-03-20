@@ -1,0 +1,239 @@
+2020-02-18 12:45:24.340  INFO 24300 --- [restartedMain] com.lrm.BlogApplication                  : Starting BlogApplication on LAPTOP-4RFQNEC2 with PID 24300 (D:\CODE\blog\target\classes started by ChengFeng in D:\CODE\blog)
+2020-02-18 12:45:24.344  INFO 24300 --- [restartedMain] com.lrm.BlogApplication                  : The following profiles are active: pro
+2020-02-18 12:45:34.420  INFO 24300 --- [restartedMain] com.lrm.BlogApplication                  : Started BlogApplication in 11.218 seconds (JVM running for 16.093)
+2020-02-18 12:45:34.737  INFO 24300 --- [http-nio-80-exec-1] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: createTime: DESC], {}]}
+2020-02-18 12:45:34.957  WARN 24300 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-02-18 12:45:34.980  WARN 24300 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-02-18 12:45:34.993  INFO 24300 --- [http-nio-80-exec-1] com.lrm.aspect.LogAspect                 : Result : index
+2020-02-18 12:45:36.936  INFO 24300 --- [http-nio-80-exec-2] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:45:36.941  INFO 24300 --- [http-nio-80-exec-2] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 12:46:59.765  INFO 24300 --- [http-nio-80-exec-6] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: createTime: DESC], {}]}
+2020-02-18 12:46:59.782  INFO 24300 --- [http-nio-80-exec-6] com.lrm.aspect.LogAspect                 : Result : index
+2020-02-18 12:47:00.255  INFO 24300 --- [http-nio-80-exec-3] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:47:00.261  INFO 24300 --- [http-nio-80-exec-3] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 12:47:35.471  INFO 24300 --- [http-nio-80-exec-8] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: createTime: DESC], {}]}
+2020-02-18 12:47:35.487  INFO 24300 --- [http-nio-80-exec-8] com.lrm.aspect.LogAspect                 : Result : index
+2020-02-18 12:47:36.002  INFO 24300 --- [http-nio-80-exec-3] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:47:36.007  INFO 24300 --- [http-nio-80-exec-3] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 12:47:59.851  INFO 24300 --- [http-nio-80-exec-7] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: createTime: DESC], {}]}
+2020-02-18 12:47:59.868  INFO 24300 --- [http-nio-80-exec-7] com.lrm.aspect.LogAspect                 : Result : index
+2020-02-18 12:48:00.299  INFO 24300 --- [http-nio-80-exec-5] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:48:00.301  INFO 24300 --- [http-nio-80-exec-5] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 12:48:39.362  INFO 24300 --- [http-nio-80-exec-3] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[Page request [number: 0, size 8, sort: createTime: DESC], {}]}
+2020-02-18 12:48:39.380  INFO 24300 --- [http-nio-80-exec-3] com.lrm.aspect.LogAspect                 : Result : index
+2020-02-18 12:48:39.745  INFO 24300 --- [http-nio-80-exec-1] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:48:39.750  INFO 24300 --- [http-nio-80-exec-1] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 12:48:43.183  INFO 24300 --- [http-nio-80-exec-5] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[Page request [number: 1, size 8, sort: createTime: DESC], {}]}
+2020-02-18 12:48:43.195  INFO 24300 --- [http-nio-80-exec-5] com.lrm.aspect.LogAspect                 : Result : index
+2020-02-18 12:48:43.585  INFO 24300 --- [http-nio-80-exec-9] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='127.0.0.1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:48:43.592  INFO 24300 --- [http-nio-80-exec-9] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 12:49:50.596  INFO 14592 --- [restartedMain] com.lrm.BlogApplication                  : Starting BlogApplication on LAPTOP-4RFQNEC2 with PID 14592 (D:\CODE\blog\target\classes started by ChengFeng in D:\CODE\blog)
+2020-02-18 12:49:50.597  INFO 14592 --- [restartedMain] com.lrm.BlogApplication                  : The following profiles are active: pro
+2020-02-18 12:49:56.115  INFO 14592 --- [restartedMain] com.lrm.BlogApplication                  : Started BlogApplication in 5.975 seconds (JVM running for 7.083)
+2020-02-18 12:49:58.943  INFO 14592 --- [http-nio-80-exec-1] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/', ip='127.0.0.1', classMethod='com.lrm.web.IndexController.index', args=[Page request [number: 0, size 6, sort: createTime: DESC], {}]}
+2020-02-18 12:49:59.056  WARN 14592 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-02-18 12:49:59.070  WARN 14592 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-02-18 12:49:59.078  INFO 14592 --- [http-nio-80-exec-1] com.lrm.aspect.LogAspect                 : Result : index
+2020-02-18 12:50:00.085  INFO 14592 --- [http-nio-80-exec-3] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:50:00.092  INFO 14592 --- [http-nio-80-exec-3] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 12:50:07.972  INFO 14592 --- [http-nio-80-exec-6] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[Page request [number: 0, size 6, sort: createTime: DESC], {}]}
+2020-02-18 12:50:08.001  INFO 14592 --- [http-nio-80-exec-6] com.lrm.aspect.LogAspect                 : Result : index
+2020-02-18 12:50:08.457  INFO 14592 --- [http-nio-80-exec-1] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:50:08.462  INFO 14592 --- [http-nio-80-exec-1] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 12:50:11.169  INFO 14592 --- [http-nio-80-exec-7] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[Page request [number: 1, size 6, sort: createTime: DESC], {}]}
+2020-02-18 12:50:11.194  INFO 14592 --- [http-nio-80-exec-7] com.lrm.aspect.LogAspect                 : Result : index
+2020-02-18 12:50:11.583  INFO 14592 --- [http-nio-80-exec-4] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:50:11.589  INFO 14592 --- [http-nio-80-exec-4] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 12:50:37.358  INFO 9660 --- [restartedMain] com.lrm.BlogApplication                  : Starting BlogApplication on LAPTOP-4RFQNEC2 with PID 9660 (D:\CODE\blog\target\classes started by ChengFeng in D:\CODE\blog)
+2020-02-18 12:50:37.360  INFO 9660 --- [restartedMain] com.lrm.BlogApplication                  : The following profiles are active: pro
+2020-02-18 12:50:42.845  INFO 9660 --- [restartedMain] com.lrm.BlogApplication                  : Started BlogApplication in 5.99 seconds (JVM running for 7.265)
+2020-02-18 12:51:15.878  INFO 9660 --- [http-nio-80-exec-1] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[Page request [number: 0, size 6, sort: createTime: DESC], {}]}
+2020-02-18 12:51:15.980  WARN 9660 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-02-18 12:51:15.989  WARN 9660 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-02-18 12:51:15.996  INFO 9660 --- [http-nio-80-exec-1] com.lrm.aspect.LogAspect                 : Result : index
+2020-02-18 12:51:16.968  INFO 9660 --- [http-nio-80-exec-3] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:51:16.977  INFO 9660 --- [http-nio-80-exec-3] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 12:51:22.936  INFO 9660 --- [http-nio-80-exec-2] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[Page request [number: 1, size 6, sort: createTime: DESC], {}]}
+2020-02-18 12:51:22.956  INFO 9660 --- [http-nio-80-exec-2] com.lrm.aspect.LogAspect                 : Result : index
+2020-02-18 12:51:23.469  INFO 9660 --- [http-nio-80-exec-8] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:51:23.479  INFO 9660 --- [http-nio-80-exec-8] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 12:51:31.057  INFO 9660 --- [http-nio-80-exec-5] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[Page request [number: 0, size 6, sort: createTime: DESC], {}]}
+2020-02-18 12:51:31.082  INFO 9660 --- [http-nio-80-exec-5] com.lrm.aspect.LogAspect                 : Result : index
+2020-02-18 12:51:31.530  INFO 9660 --- [http-nio-80-exec-4] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:51:31.538  INFO 9660 --- [http-nio-80-exec-4] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 12:51:50.162  INFO 21776 --- [restartedMain] com.lrm.BlogApplication                  : Starting BlogApplication on LAPTOP-4RFQNEC2 with PID 21776 (D:\CODE\blog\target\classes started by ChengFeng in D:\CODE\blog)
+2020-02-18 12:51:50.167  INFO 21776 --- [restartedMain] com.lrm.BlogApplication                  : The following profiles are active: pro
+2020-02-18 12:51:55.559  INFO 21776 --- [restartedMain] com.lrm.BlogApplication                  : Started BlogApplication in 5.896 seconds (JVM running for 7.018)
+2020-02-18 12:51:56.993  INFO 21776 --- [http-nio-80-exec-1] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[Page request [number: 0, size 5, sort: createTime: DESC], {}]}
+2020-02-18 12:51:57.081  WARN 21776 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-02-18 12:51:57.091  WARN 21776 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-02-18 12:51:57.099  INFO 21776 --- [http-nio-80-exec-1] com.lrm.aspect.LogAspect                 : Result : index
+2020-02-18 12:51:57.963  INFO 21776 --- [http-nio-80-exec-6] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:51:57.976  INFO 21776 --- [http-nio-80-exec-6] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 12:52:43.589  INFO 21776 --- [http-nio-80-exec-2] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/blog/9', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.blog', args=[9, {}]}
+2020-02-18 12:52:44.040  INFO 21776 --- [http-nio-80-exec-2] com.lrm.aspect.LogAspect                 : Result : blog
+2020-02-18 12:52:44.532  INFO 21776 --- [http-nio-80-exec-5] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:52:44.537  INFO 21776 --- [http-nio-80-exec-5] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 12:52:54.828  INFO 21776 --- [http-nio-80-exec-7] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/about', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.AboutShowController.about', args=[]}
+2020-02-18 12:52:54.831  INFO 21776 --- [http-nio-80-exec-7] com.lrm.aspect.LogAspect                 : Result : about
+2020-02-18 12:52:55.519  INFO 21776 --- [http-nio-80-exec-8] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:52:55.530  INFO 21776 --- [http-nio-80-exec-8] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 12:55:19.616  INFO 21700 --- [restartedMain] com.lrm.BlogApplication                  : Starting BlogApplication on LAPTOP-4RFQNEC2 with PID 21700 (D:\CODE\blog\target\classes started by ChengFeng in D:\CODE\blog)
+2020-02-18 12:55:19.616  INFO 21700 --- [restartedMain] com.lrm.BlogApplication                  : The following profiles are active: pro
+2020-02-18 12:55:24.255  INFO 21700 --- [restartedMain] com.lrm.BlogApplication                  : Started BlogApplication in 5.076 seconds (JVM running for 6.181)
+2020-02-18 12:55:31.720  INFO 21700 --- [http-nio-80-exec-1] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/about', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.AboutShowController.about', args=[]}
+2020-02-18 12:55:31.723  INFO 21700 --- [http-nio-80-exec-1] com.lrm.aspect.LogAspect                 : Result : about
+2020-02-18 12:55:32.515  INFO 21700 --- [http-nio-80-exec-7] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:55:32.669  INFO 21700 --- [http-nio-80-exec-7] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 12:58:06.217  INFO 21700 --- [http-nio-80-exec-10] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/types/7', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 7, {}]}
+2020-02-18 12:58:06.226  WARN 21700 --- [http-nio-80-exec-10] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-02-18 12:58:06.252  INFO 21700 --- [http-nio-80-exec-10] com.lrm.aspect.LogAspect                 : Result : types
+2020-02-18 12:58:07.034  INFO 21700 --- [http-nio-80-exec-4] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:58:07.048  INFO 21700 --- [http-nio-80-exec-4] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 12:58:16.435  INFO 21700 --- [http-nio-80-exec-8] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.ArchiveShowController.archives', args=[{}]}
+2020-02-18 12:58:16.480  INFO 21700 --- [http-nio-80-exec-8] com.lrm.aspect.LogAspect                 : Result : archives
+2020-02-18 12:58:16.928  INFO 21700 --- [http-nio-80-exec-3] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:58:16.938  INFO 21700 --- [http-nio-80-exec-3] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 12:58:32.474  INFO 21700 --- [http-nio-80-exec-7] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/blog/1', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.blog', args=[1, {}]}
+2020-02-18 12:58:32.527  INFO 21700 --- [http-nio-80-exec-7] com.lrm.aspect.LogAspect                 : Result : blog
+2020-02-18 12:58:32.971  INFO 21700 --- [http-nio-80-exec-4] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:58:32.977  INFO 21700 --- [http-nio-80-exec-4] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 12:58:33.042  INFO 21700 --- [http-nio-80-exec-1] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/comments/1', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.CommentController.comments', args=[1, {}]}
+2020-02-18 12:58:33.075  INFO 21700 --- [http-nio-80-exec-1] com.lrm.aspect.LogAspect                 : Result : blog :: commentList
+2020-02-18 12:59:37.752  INFO 21700 --- [http-nio-80-exec-5] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[Page request [number: 0, size 5, sort: createTime: DESC], {}]}
+2020-02-18 12:59:37.789  WARN 21700 --- [http-nio-80-exec-5] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-02-18 12:59:37.807  INFO 21700 --- [http-nio-80-exec-5] com.lrm.aspect.LogAspect                 : Result : index
+2020-02-18 12:59:38.279  INFO 21700 --- [http-nio-80-exec-7] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:59:38.287  INFO 21700 --- [http-nio-80-exec-7] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 12:59:47.135  INFO 21700 --- [http-nio-80-exec-3] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[Page request [number: 1, size 5, sort: createTime: DESC], {}]}
+2020-02-18 12:59:47.152  INFO 21700 --- [http-nio-80-exec-3] com.lrm.aspect.LogAspect                 : Result : index
+2020-02-18 12:59:47.546  INFO 21700 --- [http-nio-80-exec-10] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 12:59:47.551  INFO 21700 --- [http-nio-80-exec-10] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 13:00:15.289  INFO 21700 --- [http-nio-80-exec-7] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/blog/6', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.blog', args=[6, {}]}
+2020-02-18 13:00:15.306  INFO 21700 --- [http-nio-80-exec-7] com.lrm.aspect.LogAspect                 : Result : blog
+2020-02-18 13:00:15.719  INFO 21700 --- [http-nio-80-exec-8] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.newblogs', args=[{}]}
+2020-02-18 13:00:15.727  INFO 21700 --- [http-nio-80-exec-8] com.lrm.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-02-18 13:13:01.672  INFO 20500 --- [restartedMain] com.lrm.BlogApplication                  : Starting BlogApplication on LAPTOP-4RFQNEC2 with PID 20500 (D:\CODE\blog\target\classes started by ChengFeng in D:\CODE\blog)
+2020-02-18 13:13:01.672  INFO 20500 --- [restartedMain] com.lrm.BlogApplication                  : The following profiles are active: pro
+2020-02-18 13:13:06.629  INFO 20500 --- [restartedMain] com.lrm.BlogApplication                  : Started BlogApplication in 5.409 seconds (JVM running for 6.485)
+2020-02-18 13:14:10.479  INFO 20500 --- [http-nio-80-exec-1] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/search', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.search', args=[Page request [number: 0, size 5, sort: createTime: DESC], , {}]}
+2020-02-18 13:14:10.574  INFO 20500 --- [http-nio-80-exec-1] com.lrm.aspect.LogAspect                 : Result : search
+2020-02-18 13:14:56.668  INFO 20500 --- [http-nio-80-exec-6] com.lrm.aspect.LogAspect                 : Request : {url='http://localhost/', ip='0:0:0:0:0:0:0:1', classMethod='com.lrm.web.IndexController.index', args=[Page request [number: 0, size 5, sort: createTime: DESC], {}]}
+2020-02-18 13:14:56.719  WARN 20500 --- [http-nio-80-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-02-18 13:14:56.731  WARN 20500 --- [http-nio-80-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-02-18 13:14:56.743  INFO 20500 --- [http-nio-80-exec-6] com.lrm.aspect.LogAspect                 : Result : index
+2020-02-18 13:14:56.777 ERROR 20500 --- [http-nio-80-exec-6] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-80-exec-6] Exception processing template "index": Error resolving template "index", template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template "index", template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:865)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:608)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1087)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1061)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2020-02-18 13:14:56.796 ERROR 20500 --- [http-nio-80-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template "index", template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template "index", template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:865)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:608)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1087)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1061)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2020-02-18 13:15:38.850  INFO 19020 --- [main] com.lrm.BlogApplicationTests             : Starting BlogApplicationTests on LAPTOP-4RFQNEC2 with PID 19020 (started by ChengFeng in D:\CODE\blog)
+2020-02-18 13:15:38.850  INFO 19020 --- [main] com.lrm.BlogApplicationTests             : The following profiles are active: pro
+2020-02-18 13:15:45.554  INFO 19020 --- [main] com.lrm.BlogApplicationTests             : Started BlogApplicationTests in 7.22 seconds (JVM running for 8.072)
