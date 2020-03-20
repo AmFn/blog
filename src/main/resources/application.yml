@@ -1,0 +1,24 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  profiles:
+    active: pro
+  messages:
+    basename: i18n/messages
+  mvc:
+    favicon:
+      enable=false:
+
+comment.avatar: /images/avatar.png
+server:
+  context-path: /
+#  ssl:
+#    key-store: classpath:520oo.jks
+#    key-store-password: JFFR35lO
+#    key-alias: alias
+#    key-store-type: JKS
+  port: 80
+#  custom :
+#    httpPort: 80
+
+
