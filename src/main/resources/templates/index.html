@@ -36,16 +36,16 @@
   </nav>
 
   <!--中间内容-->
-  <div  class="m-container m-padded-tb-big animated fadeIn">
+  <div  class="m-container m-padded-tb-big animated fadeIn  ">
     <div class="ui container">
       <div class="ui stackable grid">
         <!--左边博客列表-->
-        <div class="eleven wide column">
+        <div class="eleven wide column m-movex">
           <!--header-->
           <div class="ui top attached segment">
             <div class="ui middle aligned two column grid">
-              <div class="column">
-                <h3 class="ui teal header">博客</h3>
+              <div class="column ">
+                <h3 class="ui teal header ">博客</h3>
               </div>
               <div class="right aligned column">
                 共 <h2 class="ui orange header m-inline-block m-text-thin" th:text="${page.totalElements}"> 14 </h2> 篇
@@ -66,7 +66,7 @@
                       <div class="ui mini horizontal link list">
                         <div class="item">
                           <img src="https://unsplash.it/100/100?image=1005" th:src="@{${blog.user.avatar}}"  alt="" class="ui avatar image">
-                          <div class="content"><a href="#" class="header" th:text="${blog.user.nickname}" >李仁密</a></div>
+                          <div class="content"><a href="#" class="header" th:text="${blog.user.nickname}" >陈煜峰</a></div>
                         </div>
                         <div class="item">
                           <i class="calendar icon"></i><span th:text="${#dates.format(blog.createTime,'yyyy-MM-dd')}">2017-10-01</span>
@@ -101,7 +101,41 @@
                       <div class="ui mini horizontal link list">
                         <div class="item">
                           <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
-                          <div class="content"><a href="#" class="header">李仁密</a></div>
+                          <div class="content"><a href="#" class="header">陈煜峰</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2017-10-01
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">陈煜峰</a></div>
                         </div>
                         <div class="item">
                           <i class="calendar icon"></i> 2017-10-01
@@ -203,41 +237,7 @@
                       <div class="ui mini horizontal link list">
                         <div class="item">
                           <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
-                          <div class="content"><a href="#" class="header">李仁密</a></div>
-                        </div>
-                        <div class="item">
-                          <i class="calendar icon"></i> 2017-10-01
-                        </div>
-                        <div class="item">
-                          <i class="eye icon"></i> 2342
-                        </div>
-                      </div>
-                    </div>
-                    <div class="right aligned five wide column">
-                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="five wide column">
-                  <a href="#" target="_blank">
-                    <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui rounded image">
-                  </a>
-                </div>
-
-              </div>
-            </div>
-            <div class="ui padded vertical segment m-padded-tb-large">
-              <div class="ui mobile reversed stackable grid">
-                <div class="eleven wide column">
-                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
-                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
-                  <div class="ui grid">
-                    <div class="eleven wide column">
-                      <div class="ui mini horizontal link list">
-                        <div class="item">
-                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
-                          <div class="content"><a href="#" class="header">李仁密</a></div>
+                          <div class="content"><a href="#" class="header">陈煜峰</a></div>
                         </div>
                         <div class="item">
                           <i class="calendar icon"></i> 2017-10-01
@@ -415,30 +415,30 @@
         </div>
 
         <!--右边的top-->
-        <div class="five wide column">
+        <div class="five wide column m-movey">
 
           <!--分类-->
-          <div class="ui segments">
+          <div class="ui segments m-movey ">
             <div class="ui secondary segment">
               <div class="ui two column grid">
-                <div class="column">
+                <div class="column  ">
                   <i class="idea icon"></i>分类
                 </div>
-                <div class="right aligned column">
+                <div class="right aligned column ">
                   <a href="#" th:href="@{types/-1}" target="_blank">more <i class="angle double right icon"></i></a>
                 </div>
               </div>
             </div>
-            <div class="ui teal segment">
+            <div class="ui violet  segment ">
               <div class="ui fluid vertical menu" >
                 <a href="#" th:href="@{/types/{id}(id=${type.id})}" target="_blank" class="item"  th:each="type : ${types}">
-                  <span th:text="${type.name}">学习日志</span>
-                  <div class="ui teal basic left pointing label" th:text="${#arrays.length(type.blogs)}">13</div>
+                  <span th:text="${type.name}" >学习日志</span>
+                  <div class="ui pink basic left pointing label" th:text="${#arrays.length(type.blogs)}">13</div>
                 </a>
                 <!--/*-->
                 <a href="#" class="item">
                   思考与感悟
-                  <div class="ui teal basic left pointing label">13</div>
+                  <div class="ui blue  basic left pointing label">13</div>
                 </a>
                 <a href="#" class="item">
                   学习日志
@@ -462,7 +462,7 @@
           </div>
 
           <!--标签-->
-          <div class="ui segments m-margin-top-large">
+          <div class="ui segments m-margin-top-large m-movez">
             <div class="ui secondary segment">
               <div class="ui two column grid">
                 <div class="column">
@@ -473,8 +473,8 @@
                 </div>
               </div>
             </div>
-            <div class="ui teal segment">
-              <a href="#" th:href="@{/tags/{id}(id=${tag.id})}" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny" th:each="tag : ${tags}">
+            <div class="ui violet  segment ">
+              <a href="#" th:href="@{/tags/{id}(id=${tag.id})}" target="_blank" class="ui  basic left pointing label m-margin-tb-tiny "  th:classappend="${tag.id%2==0}? orange: pink" th:each="tag : ${tags}">
                 <span th:text="${tag.name}">方法论</span> <div class="detail" th:text="${#arrays.length(tag.blogs)}">23</div>
               </a>
               <!--/*-->
@@ -596,7 +596,117 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
 <!--/*/</th:block>/*/-->
+  <script>
+    $('.m-movex')
+            .transition('horizontal flip',0)
+            .transition('horizontal flip',700)
+    $('.m-movey')
+            .transition('fly left',0)
+            .transition('fly left')
 
+    $('.m-movez')
+            .transition('fly left',0)
+            .transition('fly left')
+
+
+    $('.m-movex').click(function () {
+      $('.m-movex')
+              // if a direction if specified it will be obeyed
+              .transition('pulse')
+      ;
+    })
+    $('.m-movey').click(function () {
+      $('.m-movey')
+              // if a direction if specified it will be obeyed
+              .transition('pulse')
+      ;
+    })
+    $('.m-movez').click(function () {
+      $('.m-movez')
+              // if a direction if specified it will be obeyed
+              .transition('pulse')
+      ;
+    })
+  </script>
+  <script type="text/javascript">
+    ! function () {
+      function o(w, v, i) {
+        return w.getAttribute(v) || i
+      }
+      function j(i) {
+        return document.getElementsByTagName(i)
+      }
+      function l() {
+        var i = j("script"),
+                w = i.length,
+                v = i[w - 1];
+        return {
+          l: w,
+          z: o(v, "zIndex", -1),
+          o: o(v, "opacity", 0.5),
+          c: o(v, "color", "0,0,0"),
+          n: o(v, "count", 99)
+        }
+      }
+      function k() {
+        r = u.width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth, n = u.height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight
+      }
+      function b() {
+        e.clearRect(0, 0, r, n);
+        var w = [f].concat(t);
+        var x, v, A, B, z, y;
+        t.forEach(function (i) {
+          i.x += i.xa, i.y += i.ya, i.xa *= i.x > r || i.x < 0 ? -1 : 1, i.ya *= i.y > n || i.y < 0 ? -1 : 1, e.fillRect(i.x - 0.5, i.y - 0.5, 1, 1);
+          for (v = 0; v < w.length; v++) {
+            x = w[v];
+            if (i !== x && null !== x.x && null !== x.y) {
+              B = i.x - x.x, z = i.y - x.y, y = B * B + z * z;
+              y < x.max && (x === f && y >= x.max / 2 && (i.x -= 0.03 * B, i.y -= 0.03 * z), A = (x.max - y) / x.max, e.beginPath(), e.lineWidth = A / 2, e.strokeStyle = "rgba(" + s.c + "," + (A + 0.2) + ")", e.moveTo(i.x, i.y), e.lineTo(x.x, x.y), e.stroke())
+            }
+          }
+          w.splice(w.indexOf(i), 1)
+        }), m(b)
+      }
+      var u = document.createElement("canvas"),
+              s = l(),
+              c = "c_n" + s.l,
+              e = u.getContext("2d"),
+              r, n, m = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function (i) {
+                window.setTimeout(i, 1000 / 45)
+              },
+              a = Math.random,
+              f = {
+                x: null,
+                y: null,
+                max: 20000
+              };
+      u.id = c;
+      u.style.cssText = "position:fixed;top:0;left:0;z-index:" + s.z + ";opacity:" + s.o;
+      j("body")[0].appendChild(u);
+      k(), window.onresize = k;
+      window.onmousemove = function (i) {
+        i = i || window.event, f.x = i.clientX, f.y = i.clientY
+      }, window.onmouseout = function () {
+        f.x = null, f.y = null
+      };
+      for (var t = [], p = 0; s.n > p; p++) {
+        var h = a() * r,
+                g = a() * n,
+                q = 2 * a() - 1,
+                d = 2 * a() - 1;
+        t.push({
+          x: h,
+          y: g,
+          xa: q,
+          ya: d,
+          max: 10000
+        })
+      }
+      setTimeout(function () {
+        b()
+      }, 100)
+    }();
+  </script>
   <script>
     $('.menu.toggle').click(function () {
       $('.m-item').toggleClass('m-mobile-hide');

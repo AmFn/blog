@@ -1,6 +1,6 @@
 
 body {
-    background: url("../images/bg.png");
+    background: url("../images/bg1.png");
 }
 .m-position{
     right: 2em !important;
@@ -143,6 +143,12 @@ body {
     right: 0 !important;
 }
 
+.color1{
+     color: aqua;
+ }
+.color2{
+    color: black;
+}
 
 /*-----color-----*/
 .m-black {

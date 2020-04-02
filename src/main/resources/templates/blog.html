@@ -43,12 +43,12 @@
 
   <!--中间内容-->
   <div id="waypoint" class="m-container-small m-padded-tb-big animated fadeIn">
-    <div class="ui container">
+    <div class="ui container m-move">
       <div class="ui top attached segment">
         <div class="ui horizontal link list">
           <div class="item">
             <img src="https://unsplash.it/100/100?image=1005" th:src="@{${blog.user.avatar}}"  alt="" class="ui avatar image">
-            <div class="content"><a href="#" class="header" th:text="${blog.user.nickname}">李仁密</a></div>
+            <div class="content"><a href="#" class="header" th:text="${blog.user.nickname}">陈煜峰</a></div>
           </div>
           <div class="item">
             <i class="calendar icon"></i> <span th:text="${#dates.format(blog.updateTime,'yyyy-MM-dd')}">2017-10-01</span>
@@ -685,7 +685,11 @@ h5,h6{font-size:1em;}
 <script src="../static/lib/waypoints/jquery.waypoints.min.js"></script>
   <!--/*/</th:block>/*/-->
 
-
+  <script>
+    $('.m-move')
+            .transition('drop',5)
+            .transition('drop')
+  </script>
   <script th:inline="javascript">
 
     $('.menu.toggle').click(function () {
